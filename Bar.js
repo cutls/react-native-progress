@@ -118,7 +118,6 @@ export default class ProgressBar extends Component {
 
   render() {
     const {
-      borderColor,
       borderRadius,
       borderWidth,
       children,
@@ -134,7 +133,7 @@ export default class ProgressBar extends Component {
     const containerStyle = {
       width,
       borderWidth,
-      borderColor: borderColor || color,
+      borderColor: color,
       borderRadius,
       overflow: 'hidden',
       backgroundColor: unfilledColor,
