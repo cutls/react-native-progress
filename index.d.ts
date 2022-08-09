@@ -1,4 +1,4 @@
-declare module 'react-native-progress' {
+declare module '@cutls/react-native-progress' {
   import React from 'react';
   import { TextStyle, ViewProperties, ColorValue } from 'react-native';
 
